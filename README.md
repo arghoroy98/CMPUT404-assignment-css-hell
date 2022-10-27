@@ -26,7 +26,7 @@ Modifications made
 I had to link my stylesheet to each of the gutenberg html pages by adding this
 line inside the head tag:
 
-<link rel="stylesheet" type="text/css" href="css/theme.css">
+"<link rel="stylesheet" type="text/css" href="css/theme.css">"
 
 1) The font-family has been changed to sans-serif.
 2) The background color has been changed to be more aesthetically pleasing.
