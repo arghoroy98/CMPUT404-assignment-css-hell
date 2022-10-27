@@ -1,0 +1,310 @@
+@font-face {
+	font-family: Poppins;
+	src: url(fonts/Poppins/poppins-medium.ttf);
+}
+
+body{
+	margin: 0px;
+	font-family: "Poppins",sans-serif;
+	background: #161616;
+}
+
+
+/*THIS IS FOR STYLING THE FIRST SECTION*/
+
+.first{
+	background: url('images/background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 900px;
+	text-align: center;
+	color: white;
+	/*background-position-y: bottom;*/
+}
+
+
+.first button{
+	border: 2px solid white;
+	background: none;
+	color: white;
+	width: 200px;
+	height: 50px;
+}
+
+.first button:hover{
+	background: rgba(255,255,255,0.3);
+	transition: 0.2s;
+}
+
+.first p.heading_text{
+	color: white;
+	vertical-align: middle;
+	font-size: 60px;
+	margin: 0px;
+	padding-top: 300px;
+}
+
+.first p.description{
+	color: white;
+	vertical-align: middle;
+	font-size: 20px;
+}
+
+.first p.socialIcons i{
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.first p.socialIcons a{
+	color: unset;
+}
+
+
+.first p.socialIcons i:hover{
+	color: black;
+	transition: 0.2s;
+}
+
+
+
+
+
+/*FIRST SECTION STYLING ENDS HERE*/
+
+
+/*SECOND SECTION STYLING BEGINS*/
+.about_me {
+	text-align: center;
+	background: black;
+	color: 	white;
+	position: relative;
+	height: 800px;
+}
+
+.profilePhoto{
+	display: inline-block;
+}
+
+.profilePhoto img{
+	width: 220px;
+	border-radius: 50%;
+	margin-top: 90px;
+	border: 5px solid #c7c7c7;
+	margin-right: 20px;
+}
+
+.profileText{
+	display: inline-block;
+	margin-left: 20px;
+	position: absolute;
+	top: 90px;
+}
+
+.profileText h1{
+	margin-bottom: 0px;
+	color: #ab9cff
+}
+
+.about_me .header{
+	padding-left: 70px;
+	top: 100px;
+}
+
+.about_me .header .header_underline{
+	height: 4px;
+	background: white;
+	top: 10px;
+}
+
+
+.about_me .text{
+	width: 310px;
+	font-size: 20px;
+	top: 80px;
+	text-align: justify;
+	left: 	0px;
+	margin-left: 0px;
+	line-height: 	30px;
+}
+
+.profileButtons button{
+	background: none;
+	border:  2px solid white;
+	color: white;
+	width: 220px;
+	height: 50px;
+	margin-top: 40px;
+	font-weight: 900;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.profileButtons button:hover{
+	background: #7c7c7c;
+	transition: 0.2s;
+
+}
+
+.skills{
+	text-align: left;
+	width: 500px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+.skillsHeader{
+	font-size: 25px;
+	font-weight: 900;
+}
+
+/*THIS IS THE 3RD SECTION*/
+.experiencesHeader h1{
+	color: #6f6fff;
+	font-size: 40px;
+	margin-top: 0px;
+	padding-top: 80px;
+	padding-bottom: 40px;
+}
+
+.experiences {
+	padding-left: 40px;
+	width: 1000px;
+	margin: 0 auto;
+	color: white;
+	background: #222222;
+	box-shadow: 10px 10px 30px black;
+
+}
+
+.job hr{
+	width: 950px;
+	text-align: left;
+	margin-left: 0px;
+}
+
+
+.job .jobTitle{
+	font-weight: 700;
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+
+.job .jobCompany{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.job .jobTimePeriod{
+	font-size: 15px;
+	font-style: italic;
+}
+
+.job .jobDescription{
+	font-size: 15px;
+	line-height: 38px;
+	padding-bottom: 100px;
+	width: 950px;
+}
+
+.highlight{
+	color: #ab9cff;
+	font-weight: 800;
+}
+
+/*Last panel*/
+.last {
+	color: white;
+}
+
+
+
+.last .educationPanel{
+	display: inline-block;
+	width: 	50vw;
+	padding-left: 100px;
+	padding-right: 	100px;
+	padding-bottom: 100px;
+	box-shadow: 5px 5px 20px black;
+	height: 700px;
+}
+
+
+.educationHeader{
+	color: #6f6fff;
+	font-size: 20px;
+}
+
+.last .schoolName {
+	font-size: 	22px;
+	font-weight: 	700;
+	display: 	inline-block;
+	width: 	40vw;
+}
+
+.last .sidebarPanel{
+	display: inline-block;
+}
+
+.last .graduationDate {
+	font-size: 18px;
+	font-weight: 400;
+	font-style: italic;
+	display: inline-block;
+}
+
+.last .awards,.keyCourses{
+	width: 	1000px;
+	line-height: 40px;
+}
+
+.last .courseList{
+	display: inline-block;
+	padding-right: 	50px;
+	vertical-align: text-top;
+}
+
+.keyCourses	p{
+	margin-top: 	0px;
+	margin-bottom: 	0px;
+}
+
+.awards p{
+	margin-top: 	0px;
+	margin-bottom: 	0px;
+}
+
+.awards {
+	margin-bottom: 	50px;
+}
+
+.courseList ul{
+		margin-block: 0px;
+}
+
+.sidebarPanel{
+	background: #333333;
+	height: 	720px;
+	vertical-align: 	top;
+	width: 	calc(50vw - 422px);
+	box-shadow: 5px 5px 20px black;
+	padding-bottom: 	100px;
+	padding-left: 	100px;
+	padding-right: 	100px;
+}
+
+.sidebarPanel .header {
+	margin-top: 30px;
+	text-align: center	;
+	color: #a3a3ff;
+}
+
+.sidebarPanel .header hr{
+	width: 70px;
+	height: 3px;
+	background: white;
+}
+
+.sidebarPanel .text{
+	line-height: 40px;
+}
