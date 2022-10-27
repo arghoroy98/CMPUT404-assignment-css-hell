@@ -40,3 +40,7 @@ line inside the head tag:
 References
 ===================
 Fonts used: https://fonts.google.com/specimen/Poppins
+
+Notes
+===================
+The side panel for my personal site is at the bottom of the page!
