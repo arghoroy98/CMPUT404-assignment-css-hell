@@ -36,3 +36,7 @@ line inside the head tag:
 3) The header sizes have been increased and there is a text shadow on the headers.
 4) The images now have a box-shadow to give them more highlight.
 5) The image captions are now in italic.
+
+References
+===================
+Fonts used: https://fonts.google.com/specimen/Poppins
