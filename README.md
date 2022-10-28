@@ -14,6 +14,7 @@ git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
 License/Copyright
 =================
+Licensed under Argho Roy by CC-BY-SA
 
 Textual content is copyright Abram Hindle (C) 2013 under the CC-BY-SA
 4.0 unported license. Attribution should be a hyperlink to the
